@@ -14,13 +14,14 @@ It features tile maps, interactive gameplay mechanics, and dynamic trash placeme
 ---
 
 ## 📂 Project Structure
+```
 EcoVale/
 ├── src/        # Java source code
 ├── res/        # Game assets (images, maps, fonts)
 ├── .project    # Eclipse project file
 ├── .classpath  # Eclipse classpath file
 └── EcoVale.jar # Runnable JAR (optional)
-
+```
 
 ---
 
@@ -28,37 +29,43 @@ EcoVale/
 
 ### Option 1: Run from Source
 1. Clone the repo:
-   ```bash
+   ```
+   bash
    git clone https://github.com/JulkarNahin/EcoVale-2D-Game.git
    cd EcoVale-2D-Game
-2. Compile the code:
-   javac -d bin src/main/*.java src/entity/*.java src/objects/*.java src/tile/*.java
-3. Run the game:
-   java -cp bin main.GamePanel
+   ```
    
-Option 2: Run the JAR
+2. Compile the code:
+   ```
+   javac -d bin src/main/*.java src/entity/*.java src/objects/*.java src/tile/*.java
+   ```
+   
+4. Run the game:
+   ```
+   java -cp bin main.GamePanel
+   ```
+   
+### Option 2: Run the JAR
 If you prefer not to compile:
+```
 java -jar EcoVale.jar
+```
 
-🛠 Requirements
-Java JDK 8+
-Eclipse IDE (optional, for development)
+## 🛠 Requirements
+- Java JDK 8+
+- Eclipse IDE (optional, for development)
 
-📜 License
+## 📜 License
 This project is for academic purposes.
 Feel free to explore and learn, but please credit the author if you reuse code.
 
-👤 Author
+## 👤 Author
 Julkar Nahin  
 Second Year B.Sc. (Software Engineering With Honours), Universiti Teknologi Malaysia
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 (Coming soon — showcase gameplay visuals here)
 
 ---
-
-✅ With these tweaks, your README will look professional and GitHub‑ready.  
-
-Would you like me to also add a **Contributing section** so others know how to fork and submit pull requests if you ever open the project up?
